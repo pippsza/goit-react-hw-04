@@ -1,0 +1,7 @@
+.button {
+  height: 90px;
+  width: 600px;
+  &:hover {
+    border: 1px solid red;
+  }
+}

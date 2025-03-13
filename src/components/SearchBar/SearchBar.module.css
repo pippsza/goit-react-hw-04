@@ -1,0 +1,32 @@
+.header {
+  background-color: rgb(54, 54, 54);
+  width: 100%;
+  padding: 20px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+.form {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  gap: 40px;
+  & > button {
+    height: 30px;
+    width: 90px;
+    &:hover {
+      border: 1px solid red;
+    }
+  }
+  & > input {
+    height: 30px;
+    width: 300px;
+    font-size: 10spx;
+    &:focus {
+      border: 1px solid red;
+    }
+    &:hover {
+      border: 1px solid red;
+    }
+  }
+}
