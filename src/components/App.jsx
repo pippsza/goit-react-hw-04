@@ -17,7 +17,7 @@ export default function App() {
   const [searchTerm, setSearchTerm] = useState("");
   const [page, setPage] = useState(1);
   const handleSearch = (topic) => {
-    if (topic === "") {
+    if (topic.trim() === "") {
       toast.error("Any search query is required!");
       return;
     }
